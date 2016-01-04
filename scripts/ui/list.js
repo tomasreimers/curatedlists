@@ -107,7 +107,7 @@ var List = React.createClass({
 
   observe: function (props, state) {
     return {
-      list: (new Parse.Query('List')).equalTo('objectId', props.params.id),
+      list: (new Parse.Query('List')).equalTo('objectId', props.params.id).include('owner'),
       currentUser: ParseReact.currentUser
     };
   },

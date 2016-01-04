@@ -41,7 +41,7 @@ var App = React.createClass({
         <div className='container'>
           <div className='nav'>
             <div className='clearfix'>
-              <div className='left title'><Link to='/'>ReadingList.Club <i className="fa fa-book"></i></Link></div>
+              <div className='left title'><Link to='/'>Reading List <i className="fa fa-book"></i></Link></div>
               <div className='right'>{this.data.user ? this._loggedInNav() : this._loggedOutNav()}</div>
             </div>
             <hr className='navBottomLine' />

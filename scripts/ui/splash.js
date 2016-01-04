@@ -16,7 +16,7 @@ var Splash = React.createClass({
     return (
       <div>
         <h1 className='listTitle'>Welcome</h1>
-        <h2 className='listSubtitle'>This is ReadingList.Club</h2>
+        <h2 className='listSubtitle'>This is Reading List.</h2>
         <div className='sidebarContainer'>
           <div className='sidebar'>
             <div className='section'>

@@ -62,7 +62,7 @@ var Register = React.createClass({
           <input type='text' placeholder='username' ref='username' />
           <input type='text' placeholder='name (optional)' ref='name' />
           <input type='text' placeholder='email' ref='email' />
-          <input type='text' placeholder='password' ref='password' />
+          <input type='password' placeholder='password' ref='password' />
           <input type='submit' value='Register' />
         </form>
       </div>
